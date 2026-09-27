@@ -1,0 +1,22 @@
+
+:root{
+  --primary:#0d6efd;
+  --secondary:#0dcaf0;
+  --dark:#102a43;
+  --light:#f4f8fb;
+}
+body{font-family:Tahoma,Arial,sans-serif;background:var(--light);color:#243b53;direction:rtl}
+.navbar-brand{font-weight:800}
+.hero{background:linear-gradient(135deg,#0d6efd,#0dcaf0);color:white;border-radius:0 0 30px 30px}
+.hero .display-5{font-weight:800}
+.stat-card,.feature-card,.dashboard-card{border:0;border-radius:18px;box-shadow:0 5px 20px rgba(16,42,67,.08);transition:.2s}
+.stat-card:hover,.feature-card:hover{transform:translateY(-4px)}
+.icon-box{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;background:#e8f2ff;color:var(--primary);font-size:24px}
+.page-header{background:white;border-radius:18px;padding:24px;box-shadow:0 4px 15px rgba(0,0,0,.05)}
+footer{background:#102a43;color:#fff;margin-top:50px}
+.table-card{background:white;border-radius:18px;box-shadow:0 5px 20px rgba(16,42,67,.07);overflow:hidden}
+.form-card{background:white;border-radius:18px;padding:25px;box-shadow:0 5px 20px rgba(16,42,67,.07)}
+.badge{font-weight:500}
+.sidebar-link{border-radius:10px;margin-bottom:5px}
+.sidebar-link:hover,.sidebar-link.active{background:#e8f2ff;color:#0d6efd}
+@media(max-width:768px){.hero{border-radius:0 0 20px 20px}.display-5{font-size:2rem}}
